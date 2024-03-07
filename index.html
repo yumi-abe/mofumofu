@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wfw5fju.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@300;400&display=swap"
+        rel="stylesheet">
+    <!-- slick-theme.cssを読み込む -->
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <!-- slick.cssを読み込む -->
+    <link rel="stylesheet" href="slick/slick.css">
+
+    <!-- JQueryを読み込む -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- slick.min.jsを読み込む -->
+    <script src="slick/slick.min.js"></script>
+    <!-- script.jsを読み込む -->
+    <script src="script.js"></script>
+
+    <title>cat cafe mofumofu</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-innerwrap">
+            <div>
+                <h1>
+                    <a href="index.html">
+                        <img src="./img/logo1x.png" alt="cat cafe mofumofu"
+                            srcset="./img/logo1x.png 400w,./img/2x/logo@2x.png 2000w">
+
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <div class="burger">
+                    <!-- <img src="./img/menu1x.png" alt="menu"> -->
+                </div>
+                <!-- <img src="./img/menu1x.png" alt="menu" srcset="./img/menu1x.png 400w,./img/2x/menu@2x.png 2000w"> -->
+                <div class="spmenu">
+                    <ul class="burgerlist">
+                        <li><a href="#concept">concept</a></li>
+                        <li><a href="#news">news</a></li>
+                        <li><a href="#cast">cast</a></li>
+                        <li><a href="#price">price</a></li>
+                        <li><a href="#sns">sns</a></li>
+                        <li><a href="#access">access</a></li>
+                        <li><a href="#gallery">gallery</a></li>
+                    </ul>
+                </div>
+                <div class="pcmenu">
+                    <ul class="pcmenu-list">
+                        <li><a href="#concept">concept</a></li>
+                        <li><a href="#news">news</a></li>
+                        <li><a href="#cast">cast</a></li>
+                        <li><a href="#price">price</a></li>
+                        <li><a href="#sns">sns</a></li>
+                        <li><a href="#access">access</a></li>
+                        <li><a href="#gallery">gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="main-visual">
+            <div class="main-slider">
+                <div>
+                    <img src="./img/mainvisual011x.jpg" alt="cat cafe mofumofu"
+                        srcset="./img/mainvisual011x.jpg 400w,./img/2x/mainvisual01@2x.jpg 800w,./img/pcmain1.jpg 2000w">
+                </div>
+                <div>
+                    <img src="./img/mainvisual021x.jpg" alt="cat cafe mofumofu"
+                        srcset="./img/mainvisual021x.jpg 400w,./img/2x/mainvisual02@2x.jpg 800w,./img/pcmain2.jpg 2000w">
+                </div>
+                <div>
+                    <img src="./img/mainvisual031x.jpg" alt="cat cafe mofumofu"
+                        srcset="./img/mainvisual031x.jpg 400w,./img/2x/mainvisual03@2x.jpg 800w,./img/pcmain3.jpg 2000w">
+                </div>
+            </div>
+        </div>
+        <section id="concept" class="concept">
+            <h2>concept</h2>
+            <p>
+                Cat Cafeもふもふは
+                <br>一人、カップル、友達同士、ご家族など
+                <br>様々な方が楽しめる場所です。
+                <br>キャスト（猫）に癒されて、
+                <br>ゆったりとしたひとときを、
+                <br>お過ごしください。
+            </p>
+        </section>
+        <section id="news" class="news">
+            <h2 class="white">news</h2>
+            <div class="news-innerwrap sp-news-slider">
+                <div class="news-item">
+                    <a href="#">
+                        <img src="./img/newsitem011x.ong" alt="GWの営業時間について"
+                            srcset="./img/newsitem011x.png 400w,./img/2x/newsitem01@2x.png 800w">
+                        <p>
+                            <time datetime="2023-04-01">2023.4.01</time>
+                            <br>GWの営業時間について
+                        </p>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a href="#">
+                        <img src="./img/newsitem021x.png" alt="新入りキャスト紹介"
+                            srcset="./img/newsitem021x.png 400w,./img/2x/newsitem02@2x.png 800w">
+                        <p>
+                            <time datetime="2023-03-15">2023.3.15</time>
+                            <br>新入りキャスト紹介
+                        </p>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a href="#">
+                        <img src="./img/newsitem031x.png" alt="お得な月間パスのご案内"
+                            srcset="./img/newsitem031x.png 400w,./img/2x/newsitem03@2x.png 800w">
+                        <p>
+                            <time datetime="2023-03-15">2023.2.1</time>
+                            <br>お得な月間パスのご案内
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="more-button">
+                <a href="#">
+                    more
+                </a>
+            </div>
+        </section>
+        <section id="cast" class="cast">
+            <h2>cast</h2>
+            <p class="click">画像をクリックすると詳細が見れます</p>
+            <div class="cast-innerwrap">
+                <!-- ぶち -->
+                <div class="cast-item">
+                    <label class="open" for="pop-up">
+                        <img src="./img/cast11x.png" alt="ぶち"
+                            srcset="./img/cast11x.png 400w,../img/2x/cast1@2x.png 800w">
+                        <br>ぶち ♂
+                    </label>
+                </div>
+                <input type="checkbox" id="pop-up">
+                <div class="overlay">
+                    <div class="window">
+                        <label class="close" for="pop-up">×</label>
+                        <img src="./img/popup/poppuup11x.jpg" alt="ぶち"
+                            srcset="./img/popup/poppuup11x.jpg 400w,./img/popup/2x/poppuup1@2x.jpg 800w">
+                        <dl>
+                            <dt>名前</dt>
+                            <dd>ぶち ♂</dd>
+                            <dt>年齢</dt>
+                            <dd>5歳</dd>
+                            <dt>種類</dt>
+                            <dd>エキゾチックショートヘア</dd>
+                            <dt>性格</dt>
+                            <dd>おっとり</dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- ひめ -->
+                <div class="cast-item">
+                    <label class="open" for="pop-up2">
+                        <img src="./img/cast21x.png" alt="ひめ"
+                            srcset="./img/cast21x.png 400w,../img/2x/cast2@2x.png 800w">
+                        <br>ひめ ♀
+                    </label>
+                </div>
+                <input type="checkbox" id="pop-up2">
+                <div class="overlay2">
+                    <div class="window2">
+                        <label class="close" for="pop-up2">×</label>
+                        <img src="./img/popup/poppuup21x.jpg" alt="ひめ"
+                            srcset="./img/popup/poppuup21x.jpg 400w,./img/popup/2x/poppuup2@2x.jpg 800w">
+                        <dl>
+                            <dt>名前</dt>
+                            <dd>ひめ ♀</dd>
+                            <dt>年齢</dt>
+                            <dd>2歳</dd>
+                            <dt>種類</dt>
+                            <dd>アメリカンショートヘア</dd>
+                            <dt>性格</dt>
+                            <dd>おっとり</dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- もか -->
+                <div class="cast-item">
+                    <label class="open" for="pop-up3">
+                        <img src="./img/cast31x.png" alt="もか"
+                            srcset="./img/cast31x.png 400w,../img/2x/cast3@2x.png 800w">
+                        <br>もか ♀
+                    </label>
+                </div>
+                <input type="checkbox" id="pop-up3">
+                <div class="overlay3">
+                    <div class="window3">
+                        <label class="close" for="pop-up3">×</label>
+                        <img src="./img/popup/poppuup31x.jpg" alt="もか"
+                            srcset="./img/popup/poppuup31x.jpg 400w,./img/popup/2x/poppuup3@2x.jpg 800w">
+                        <dl>
+                            <dt>名前</dt>
+                            <dd>もか ♀</dd>
+                            <dt>年齢</dt>
+                            <dd>4歳</dd>
+                            <dt>種類</dt>
+                            <dd>スコティッシュフォールド</dd>
+                            <dt>性格</dt>
+                            <dd>食いしん坊</dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- きなこ -->
+                <div class="cast-item">
+                    <label class="open" for="pop-up4">
+                        <img src="./img/cast41x.png" alt="きなこ"
+                            srcset="./img/cast41x.png 400w,../img/2x/cast4@2x.png 800w">
+                        <br>きなこ ♀
+                    </label>
+                </div>
+                <input type="checkbox" id="pop-up4">
+                <div class="overlay4">
+                    <div class="window4">
+                        <label class="close" for="pop-up4">×</label>
+                        <img src="./img/popup/poppuup41x.jpg" alt="きなこ"
+                            srcset="./img/popup/poppuup41x.jpg 400w,./img/popup/2x/poppuup4@2x.jpg 800w">
+                        <dl>
+                            <dt>名前</dt>
+                            <dd>きなこ ♀</dd>
+                            <dt>年齢</dt>
+                            <dd>3歳</dd>
+                            <dt>種類</dt>
+                            <dd>雑種</dd>
+                            <dt>性格</dt>
+                            <dd>甘えん坊、寂しがり屋</dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- もこ -->
+                <div class="cast-item">
+                    <label class="open" for="pop-up5">
+                        <img src="./img/cast51x.png" alt="もこ"
+                            srcset="./img/cast51x.png 400w,../img/2x/cast5@2x.png 800w">
+                        <br>もこ ♂
+                    </label>
+                </div>
+                <input type="checkbox" id="pop-up5">
+                <div class="overlay5">
+                    <div class="window5">
+                        <label class="close" for="pop-up5">×</label>
+                        <img src="./img/popup/poppuup51x.jpg" alt="もこ"
+                            srcset="./img/popup/poppuup51x.jpg 400w,./img/popup/2x/poppuup5@2x.jpg 800w">
+                        <dl>
+                            <dt>名前</dt>
+                            <dd>もこ ♂</dd>
+                            <dt>年齢</dt>
+                            <dd>7歳</dd>
+                            <dt>種類</dt>
+                            <dd>ペルシャ</dd>
+                            <dt>性格</dt>
+                            <dd>のんびり</dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- ぷー -->
+                <div class="cast-item newitem">
+                    <label class="open" for="pop-up6">
+                        <img src="./img/cast61x.png" alt="ぷー"
+                            srcset="./img/cast61x.png 400w,../img/2x/cast6@2x.png 800w">
+                        <br>ぷー ♀
+                    </label>
+                    <p class="new">new!!</p>
+                </div>
+                <input type="checkbox" id="pop-up6">
+                <div class="overlay6">
+                    <div class="window6">
+                        <label class="close" for="pop-up6">×</label>
+                        <img src="./img/popup/poppuup61x.jpg" alt="ぷー"
+                            srcset="./img/popup/poppuup61x.jpg 400w,./img/popup/2x/poppuup6@2x.jpg 800w">
+                        <dl>
+                            <dt>名前</dt>
+                            <dd>ぷー ♀</dd>
+                            <dt>年齢</dt>
+                            <dd>2歳</dd>
+                            <dt>種類</dt>
+                            <dd>エジプシャンマウ</dd>
+                            <dt>性格</dt>
+                            <dd>びびり、人懐っこい</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="price" class="price">
+            <h2 class="white">price</h2>
+            <table class="kadomaru">
+                <tr>
+                    <th></th>
+                    <th>30分あたり</th>
+                    <th>フリープラン</th>
+                </tr>
+                <tr>
+                    <th>平日</th>
+                    <td>500円</td>
+                    <td>2,500円</td>
+                </tr>
+                <tr>
+                    <th>土日祝</th>
+                    <td>600円</td>
+                    <td>2,700円</td>
+                </tr>
+            </table>
+            <p>
+                お得な月間フリーパスもございます
+                <br>詳しくは<a href=""><span class="link">こちら</span></a>
+                <br>営業時間は10:00~19:00です
+            </p>
+        </section>
+        <section id="sns" class="sns">
+            <h2>sns</h2>
+            <div class="sp-twitter">
+                <a class="twitter-timeline" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw" data-width="90%"
+                    data-height="600px">Tweets by
+                    TwitterJP</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="pc-twitter">
+                <a class="twitter-timeline" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw" data-width="70%"
+                    data-height="1000px">Tweets by
+                    TwitterJP</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </section>
+        <section id="access" class="access">
+            <h2 class="white">access</h2>
+            <div class="access-innerwrap">
+                <div>
+                    <img src="./img/accessimg1x.png" alt="お店の外観"
+                        srcset="./img/accessimg1x.png 400w,../img/pcaccess.jpg 2000w">
+                </div>
+                <div>
+                    <p>〒155-0031 東京都世田谷区北沢２丁目１０</p>
+                    <p>下北沢駅より徒歩2分</p>
+                    <p><a href="tel:+8131234-5678">03-1234-5678</a></p>
+                    <p class="map"><a href="https://goo.gl/maps/EmkYveF2nM8KhRkZ7" target="_blank"
+                            rel="noopener noreferrer">google map</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>gallery</h2>
+            <ul class="gallery-innerwrap">
+                <li class="item01"><img src="./img/grid1.jpg" alt=""></li>
+                <li class="item02"><img src="./img/grid2.jpg" alt=""></li>
+                <li class="item03"><img src="./img/grid3.jpg" alt=""></li>
+                <li class="item04"><img src="./img/grid4.jpg" alt=""></li>
+                <li class="item05"><img src="./img/grid5.jpg" alt=""></li>
+                <li class="item06"><img src="./img/grid6.jpg" alt=""></li>
+                <li class="item07"><img src="./img/grid7.jpg" alt=""></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-logo">
+            <a href="index.html">
+                <img src="./img/logo1x.png" alt="cat cafe mofumofu">
+            </a>
+        </p>
+        <p>
+            <small>
+                Copyright ©
+                <br class="sp-only">2023 Cat Cafe MofuMofu All Rights Reserved.
+            </small>
+        </p>
+    </footer>
+</body>
+
+</html>
